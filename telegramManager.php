@@ -14,8 +14,8 @@ function sendMessage($updates, $text)
 function sendLocation($updates, $location)
 {
   $curl = curl_init(URL.'sendlocation?chat_id='.$updates['message']['chat']['id'].$location);
-  curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+  curl_setopt($curl, CURLOPT_RETURNTRANSFER, true); 
   curl_exec($curl);	
 }
 
-?>
+?>
