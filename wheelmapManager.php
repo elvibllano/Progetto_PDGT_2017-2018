@@ -6,7 +6,7 @@ define("TOKEN_WHEELMAP", "Wjqc8yX1XJAFGsUomsLu");
 // wheelmap per ricevere i dati da elaborare
 function richiestaWheelmapCompleta($luogo, $operazione)
 {
-	$token_api_wheelmap = Wjqc8yX1XJAFGsUomsLu;
+	$token_api_wheelmap = Wjqc8yX1XJAFGsUomsLu; 
 	switch($operazione)
     {
     	case 1:
@@ -144,4 +144,4 @@ function resultLocation($dati, $i)
     return $location;
 }
 
-?>
+?>
