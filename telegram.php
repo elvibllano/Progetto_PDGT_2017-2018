@@ -126,7 +126,7 @@ else if(strstr($message,' ',true) == '/cercaluogo5')
     }
 	for($i = 0; $i < $j; $i++)
 	{
-		 $text = resultTextfromDati($dati, $i);
+		 $text = resultTextfromDati($dati, $i); 
          $location = resultLocation($dati, $i);
          sendMessage($updates,$text);
          sendLocation($updates,$location);
@@ -367,4 +367,4 @@ else
 	$text = 'Comando non riconosciuto.';
 	sendMessage($updates,$text);
 }
-?>
+?>
