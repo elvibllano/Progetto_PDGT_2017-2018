@@ -292,7 +292,7 @@ else if($message=='/start')
 {
 	$text = 'Benvenuto, '.PHP_EOL.
             'questo bot Telegram è stato sviluppato da Elvi Bllano come progetto per il corso di Piattaforme Digitali per la Gestione del Territorio, indirizzo di Informatica Applicata dell\'Università di Urbino.'.PHP_EOL.
-            'Lo scopo del bot è quello di fornire indicazioni sull\'accessibilità di posti e attività della città per le persone con disabilità o mobilità ristretta.'.EOL_PHP.
+            'Lo scopo del bot è quello di fornire indicazioni sull\'accessibilità di posti e attività della città per le persone con disabilità o mobilità ristretta.'.PHP_EOL.
             'Il codice del bot è accessibile dal link GitHub https://github.com/elvibllano/Progetto_PDGT_2017-2018';
     sendMessage($updates,$text);
 }
